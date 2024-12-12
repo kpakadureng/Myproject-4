@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 63a5b9a82e25ba31c376bb7d4591d8b9f6880fa5 Jglay Dureng <kpakadureng@gmail.com> 1733854010 -0500	commit (initial): Removed nested repository and added Myproject as part of the main repository
+63a5b9a82e25ba31c376bb7d4591d8b9f6880fa5 8de348b85f28aaed51eda48cb3def7c465d65f18 Jglay Dureng <kpakadureng@gmail.com> 1733854271 -0500	commit: Initial commit for Myproject 4
+8de348b85f28aaed51eda48cb3def7c465d65f18 92dea7a8f6ace50723f0e70053d540e137402b56 Jglay Dureng <kpakadureng@gmail.com> 1733854594 -0500	commit: Initial commit for Myproject 4
+92dea7a8f6ace50723f0e70053d540e137402b56 0000000000000000000000000000000000000000 Jglay Dureng <kpakadureng@gmail.com> 1733854670 -0500	Branch: renamed refs/heads/master to refs/heads/main
+0000000000000000000000000000000000000000 92dea7a8f6ace50723f0e70053d540e137402b56 Jglay Dureng <kpakadureng@gmail.com> 1733854670 -0500	Branch: renamed refs/heads/master to refs/heads/main
+92dea7a8f6ace50723f0e70053d540e137402b56 48bffd3b6a1ae567ed7c39156457eb4bfa01c0fe Jglay Dureng <kpakadureng@gmail.com> 1733856918 -0500	commit: Move index.html to root directory

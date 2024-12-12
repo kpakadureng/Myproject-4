@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Martial Arts</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow-y: scroll;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-image: url('images/pexels-rdne-8611373.jpg'); /* Update this with your actual image path */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: rgba(0, 0, 0, 0.6);
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .floating-text {
+            position: relative;
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 50px auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        .floating-text p {
+            line-height: 1.8;
+            font-size: 1.2rem;
+            margin: 10px 0;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        nav a:nth-child(3), nav a:nth-child(4), nav a:nth-child(5) {
+            color: black;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px 0;
+            position: relative;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the World of Mixed Martial Arts</h1>
+        <p>Discover the world of Mixed Martial Arts and learn about the fighters, history, and events that have shaped the sport.</p>
+    </header>
+
+    <div class="floating-text">
+        <h2>Welcome to the Mixed Martial Arts Project</h2>
+        <p>
+            Mixed Martial Arts (MMA) has evolved from a niche combat sport to a global phenomenon over the past several decades, captivating audiences with its combination of physicality, strategy, and cultural diversity. Often referred to as the ultimate proving ground for fighters, MMA integrates techniques from various martial arts disciplines, creating a dynamic and unpredictable spectacle.
+        </p>
+        <p>
+            The sport's origins can be traced back to ancient Greece with pankration, and its modern era began with the founding of the Ultimate Fighting Championship (UFC) in 1993. The UFC helped establish MMA as a legitimate sport through the introduction of weight classes, rules, and regulations, ensuring fighter safety while maintaining the excitement of competition.
+        </p>
+        <p>
+            Today, MMA is a global sensation, featuring stars like Conor McGregor and Amanda Nunes who have transcended the sport. With the integration of advanced training techniques and a focus on safety, MMA continues to grow in popularity, inspiring a new generation of fighters and fans.
+        </p>
+    </div>
+
+    <nav>
+        <a href="html/about.html">About MMA</a>
+        <a href="html/fighters.html">Fighters</a>
+        <a href="html/events.html">Events</a>
+        <a href="html/history.html">History</a>
+        <a href="html/contact.html">Contact</a>
+    </nav>
+
+    <footer>
+        <p>&copy; 2024 Mixed Martial Arts Project | All Rights Reserved</p>
+    </footer>
+
+    <script>
+        // JavaScript for floating effect
+        document.addEventListener("DOMContentLoaded", () => {
+            const floatingText = document.querySelector(".floating-text");
+            let y = 0;
+            const float = () => {
+                y += 0.5;
+                floatingText.style.transform = `translateY(${Math.sin(y / 20) * 5}px)`;
+                requestAnimationFrame(float);
+            };
+            float();
+        });
+    </script>
+</body>
+</html>

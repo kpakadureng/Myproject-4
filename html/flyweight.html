@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flyweight Division - Fighters</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: auto;
+            overflow: auto;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-image: url('../images/Fighters_background_page7.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .fighter-card {
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid #ddd;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            font-size: 1.4rem;
+            line-height: 1.8;
+        }
+        main {
+            padding-bottom: 50px; /* Ensure space at bottom */
+        }
+        footer {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flyweight Division - Fighters</h1>
+    </header>
+    <main>
+        <div class="fighter-card">
+            <h2>Alexandre Pantoja</h2>
+            <p><strong>Age:</strong> 34</p>
+            <p><strong>Record:</strong> 29-5 (Wins-Losses)</p>
+            <p><strong>Nationality:</strong> Brazilian</p>
+            <p><strong>Camp:</strong> American Top Team</p>
+            <p><strong>Head Trainer:</strong> Marcus "Buchecha" Almeida</p>
+            <p>Alexandre Pantoja is the reigning UFC Flyweight Champion and one of the most well-rounded athletes in the division. Fighting out of American Top Team, he is known for his incredible grappling, calculated striking, and unrelenting pressure. Under the guidance of head trainer Marcus "Buchecha" Almeida, Pantoja has continuously evolved his skill set. His resilience and ability to adapt in high-stakes fights make him a dangerous contender for anyone in the division.</p>
+        </div>
+        <div class="fighter-card">
+            <h2>Brandon Moreno</h2>
+            <p><strong>Age:</strong> 30</p>
+            <p><strong>Record:</strong> 21-7-2 (Wins-Losses-Draws)</p>
+            <p><strong>Nationality:</strong> Mexican</p>
+            <p><strong>Camp:</strong> Entram Gym</p>
+            <p><strong>Head Trainer:</strong> Raul Arvizu</p>
+            <p>Brandon Moreno, nicknamed "The Assassin Baby," is a former UFC Flyweight Champion and a fan favorite. Known for his grit and determination, Moreno fights out of Entram Gym in Tijuana, Mexico, under the tutelage of Raul Arvizu. His exciting fighting style combines sharp boxing, scrambles, and an iron will, making him one of the most beloved fighters in the division. His journey from near-release from the UFC to becoming champion is an inspirational story of perseverance.</p>
+        </div>
+        <div class="fighter-card">
+            <h2>Kai Kara-France</h2>
+            <p><strong>Age:</strong> 31</p>
+            <p><strong>Record:</strong> 24-11 (Wins-Losses)</p>
+            <p><strong>Nationality:</strong> New Zealander</p>
+            <p><strong>Camp:</strong> City Kickboxing</p>
+            <p><strong>Head Trainer:</strong> Eugene Bareman</p>
+            <p>Kai Kara-France is a dynamic striker fighting out of the world-renowned City Kickboxing gym in Auckland, New Zealand. Trained by Eugene Bareman, Kara-France has developed a sharp and technical striking arsenal complemented by a durable ground game. Known for his knockout power and crowd-pleasing style, he has cemented himself as a top contender in the flyweight division. Kara-France’s resilience and determination make him a fighter to watch in every bout.</p>
+        </div>
+        <div class="fighter-card">
+            <h2>Askar Askarov</h2>
+            <p><strong>Age:</strong> 31</p>
+            <p><strong>Record:</strong> 14-1-1 (Wins-Losses-Draws)</p>
+            <p><strong>Nationality:</strong> Russian</p>
+            <p><strong>Camp:</strong> Akhmat Fight Club</p>
+            <p><strong>Head Trainer:</strong> Abdusalam Ulyanov</p>
+            <p>Askar Askarov is one of the most technically gifted grapplers in the flyweight division, with an impressive background in freestyle wrestling and sambo. Fighting out of Akhmat Fight Club in Grozny, Russia, Askarov is known for his relentless takedowns and suffocating top control. Under the mentorship of head trainer Abdusalam Ulyanov, he has polished his striking to complement his elite ground game. His ability to neutralize opponents makes him a formidable force in the division.</p>
+        </div>
+        <div class="fighter-card">
+            <h2>Matheus Nicolau</h2>
+            <p><strong>Age:</strong> 30</p>
+            <p><strong>Record:</strong> 19-3-1 (Wins-Losses-Draws)</p>
+            <p><strong>Nationality:</strong> Brazilian</p>
+            <p><strong>Camp:</strong> Nova Uniao</p>
+            <p><strong>Head Trainer:</strong> Andre Pederneiras</p>
+            <p>Matheus Nicolau is a rising star in the UFC Flyweight division, combining technical precision with calm composure. Training at Nova Uniao under the legendary Andre Pederneiras, Nicolau has sharpened his striking and ground game to elite levels. Known for his cerebral approach to fighting, he excels at adapting mid-fight and finding openings to exploit. Nicolau is a fighter on the rise, with a bright future ahead in the division.</p>
+        </div>
+		<div class="fighter-card">
+			<h2>Brandon Royval</h2>
+			<p><strong>Age:</strong> 31</p>
+			<p><strong>Record:</strong> 17-7 (Wins-Losses)</p>
+			<p><strong>Nationality:</strong> American</p>
+			<p><strong>Camp:</strong> Factory X</p>
+			<p><strong>Head Trainer:</strong> Marc Montoya</p>
+			<p>Brandon "Raw Dawg" Royval is a dynamic and unpredictable fighter known for his aggressive style and submission prowess. Training out of Factory X in Colorado under head trainer Marc Montoya, Royval has developed a well-rounded skill set that keeps opponents guessing. His ability to seamlessly transition between striking and grappling makes him a constant threat in the flyweight division. Royval's resilience and tenacity have earned him multiple Fight of the Night honors, showcasing his entertainment value and warrior spirit inside the octagon.</p>
+		</div>
+		
+		<div class="fighter-card">
+			<h2>Amir Albazi</h2>
+			<p><strong>Age:</strong> 30</p>
+			<p><strong>Record:</strong> 17-2 (Wins-Losses)</p>
+			<p><strong>Nationality:</strong> Iraqi-Swedish</p>
+			<p><strong>Camp:</strong> London Shootfighters</p>
+			<p><strong>Head Trainer:</strong> Alexis Demetriades</p>
+			<p>Amir "The Prince" Albazi is a rising contender in the flyweight division, known for his exceptional grappling and submission skills. Fighting out of London Shootfighters under the guidance of head trainer Alexis Demetriades, Albazi has honed his abilities to control and finish fights on the ground. His calm demeanor and strategic approach allow him to capitalize on opponents' mistakes, making him a formidable adversary. Albazi's dedication to his craft and continuous improvement have positioned him as a serious threat to the division's elite.</p>
+		</div>
+		
+		<div class="fighter-card">
+			<h2>Manel Kape</h2>
+			<p><strong>Age:</strong> 30</p>
+			<p><strong>Record:</strong> 19-7 (Wins-Losses)</p>
+			<p><strong>Nationality:</strong> Angolan-Portuguese</p>
+			<p><strong>Camp:</strong> AKA Thailand</p>
+			<p><strong>Head Trainer:</strong> Mike Swick</p>
+			<p>Manel "Starboy" Kape is an explosive striker with a flair for the dramatic, known for his knockout power and athleticism. Training at AKA Thailand under head trainer Mike Swick, Kape has refined his striking techniques and overall fight IQ. His unorthodox style and confidence make him a challenging opponent, as he can end fights abruptly with his powerful strikes. Kape's charisma and fighting prowess have quickly made him a fan favorite in the flyweight division.</p>
+		</div>
+		
+		<div class="fighter-card">
+			<h2>Tim Elliott</h2>
+			<p><strong>Age:</strong> 37</p>
+			<p><strong>Record:</strong> 19-12-1 (Wins-Losses-Draws)</p>
+			<p><strong>Nationality:</strong> American</p>
+			<p><strong>Camp:</strong> Glory MMA & Fitness</p>
+			<p><strong>Head Trainer:</strong> James Krause</p>
+			<p>Tim Elliott is a seasoned veteran of the flyweight division, recognized for his unorthodox fighting style and relentless pace. Training out of Glory MMA & Fitness under head trainer James Krause, Elliott utilizes unconventional movements and techniques to disrupt his opponents' rhythm. His experience and adaptability have allowed him to compete against the division's best, often pushing them to their limits. Elliott's tenacity and unique approach make him a perennial contender and a tough matchup for anyone.</p>
+		</div>
+		
+		<div class="fighter-card">
+			<h2>Tagir Ulanbekov</h2>
+			<p><strong>Age:</strong> 32</p>
+			<p><strong>Record:</strong> 15-2 (Wins-Losses)</p>
+			<p><strong>Nationality:</strong> Russian</p>
+			<p><strong>Camp:</strong> Eagles MMA</p>
+			<p><strong>Head Trainer:</strong> Abdulmanap Nurmagomedov</p>
+			<p>Tagir Ulanbekov is a disciplined and methodical fighter, known for his strong wrestling base and tactical approach. Training with Eagles MMA under the late Abdulmanap Nurmagomedov, Ulanbekov has developed a grappling-centric style that emphasizes control and precision. His ability to dictate the pace of the fight and maintain positional dominance makes him a formidable opponent. Ulanbekov's dedication to his training and adherence to strategy have earned him recognition as a rising star in the flyweight division.</p>
+		</div>
+		
+		<div class="fighter-card">
+			<h2>Bruno Silva</h2>
+			<p><strong>Age:</strong> 34</p>
+			<p><strong>Record:</strong> 14-5-2 (Wins-Losses-Draws)</p>
+			<p><strong>Nationality:</strong> Brazilian</p>
+			<p><strong>Camp:</strong> Pitbull Brothers</p>
+			<p><strong>Head Trainer:</strong> Patrício Freire</p>
+			<p>Bruno "Bulldog" Silva is a tenacious fighter known for his aggressive style and knockout power. Training with the Pitbull Brothers under the mentorship of Patrício Freire, Silva has sharpened his striking and developed a well-rounded skill set. His relentless forward pressure and ability to finish fights both standing and on the ground make him a constant threat. Silva's determination and fighting spirit have earned him a reputation as one of the most exciting fighters in the flyweight division.</p>
+		</div>
+		
+		<div class="fighter-card">
+			<h2>Charles Johnson</h2>
+			<p><strong>Age:</strong> 33</p>
+			<p><strong>Record:</strong> 17-6 (Wins-Losses)</p>
+			<p><strong>Nationality:</strong> American</p>
+			<p><strong>Camp:</strong> Tiger Muay Thai</p>
+			<p><strong>Head Trainer:</strong> George Hickman</p>
+			<p>Charles "InnerG" Johnson is a versatile fighter known for his adaptability and endurance. Training at Tiger Muay Thai under head trainer George Hickman, Johnson has honed his striking and grappling skills to compete at the highest level. His ability to adjust his game plan mid-fight and maintain a high pace makes him a challenging opponent. Johnson's commitment to continuous improvement and his well-rounded abilities have solidified his place among the top flyweights.</p>
+		</div>
+		
+		<div class="fighter-card">
+            
+    </main>
+    <footer>
+        <p>&copy; 2024 Mixed Martial Arts Project</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,129 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Background */
+body {
+    height: 100vh; /* Full height of the viewport */
+    width: 100vw; /* Full width of the viewport */
+    background-image: url('../images/pexels-rdne-8611373.jpg'); /* Local image */
+    background-size: cover; /* Make the image cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    overflow: hidden; /* Remove scrolling */
+}
+
+/* Header Section */
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Highlight color */
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.4); /* Subtle overlay for readability */
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Main Content Section */
+main {
+    padding: 20px;
+    text-align: center;
+    color: white; /* Set text color to white for readability */
+}
+
+main h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+/* Footer Section */
+footer {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Background for each specific page */
+.home-page {
+    background-image: url('../images/pexels-rdne-8611373.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.events-page {
+    background-image: url('../images/pexels-vlad-dediu-161185-2581662.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.history-page {
+    background-image: url('../images/pexels-pavel-danilyuk-6296018.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-page {
+    background-image: url('../images/pexels-pavel-danilyuk-6296022.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Page-Specific Backgrounds *
+
+
+
+
